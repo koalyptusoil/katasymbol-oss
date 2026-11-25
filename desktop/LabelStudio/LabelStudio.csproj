@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>LabelStudio</AssemblyName>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <PublishSelfContained>true</PublishSelfContained>
+    <!-- Keep normal restores independent of the host OS. Publishing still
+         infers the current runtime unless an explicit -r target is supplied. -->
+    <UseDefaultPublishRuntimeIdentifier>false</UseDefaultPublishRuntimeIdentifier>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.22" />
+    <PackageReference Include="Avalonia.Headless" Version="11.3.22" />
+    <PackageReference Include="System.Drawing.Common" Version="10.0.6" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.22" />
+    <EmbeddedResource Include="printers.json" />
+    <Content Include="Licenses/*" CopyToPublishDirectory="PreserveNewest" />
+    <ProjectReference Include="../../vendor/lzma-sdk-csharp/LzmaSdk.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1497 @@
+{
+  "source": "Supplied Katasymbol APK, EDevice/TDevice/*Device and PrintManager",
+  "models": [
+    {
+      "id": "a10a16",
+      "name": "A10/A16",
+      "process": 16,
+      "engine": "e16",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "T0056",
+        "T0069"
+      ]
+    },
+    {
+      "id": "a50_plus",
+      "name": "A50 Plus",
+      "process": 17,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0024B"
+      ]
+    },
+    {
+      "id": "a55",
+      "name": "A55",
+      "process": 18,
+      "engine": "t50-old",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0023A",
+        "T0024A"
+      ]
+    },
+    {
+      "id": "a80_pro",
+      "name": "A80 Pro",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 7.9,
+      "head_dots": 568,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0172"
+      ]
+    },
+    {
+      "id": "a85",
+      "name": "A85",
+      "process": 19,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 864,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0109A"
+      ]
+    },
+    {
+      "id": "bp_327",
+      "name": "BP327",
+      "process": 32,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 15,
+      "transport": "classic",
+      "prefixes": []
+    },
+    {
+      "id": "bp_337",
+      "name": "BP337",
+      "process": 32,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 30,
+      "transport": "classic",
+      "prefixes": []
+    },
+    {
+      "id": "bp_367",
+      "name": "BP367",
+      "process": 32,
+      "engine": "cups",
+      "dots_per_mm": 24.0,
+      "head_dots": 96,
+      "density_max": 30,
+      "transport": "classic",
+      "prefixes": []
+    },
+    {
+      "id": "ch203",
+      "name": "CH203",
+      "process": 31,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 10,
+      "transport": "classic",
+      "prefixes": []
+    },
+    {
+      "id": "d15t",
+      "name": "D15T",
+      "process": 25,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0002A"
+      ]
+    },
+    {
+      "id": "e10",
+      "name": "E10",
+      "process": 15,
+      "engine": "e10",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "T0007",
+        "T0010",
+        "T0011",
+        "T0012",
+        "T0017",
+        "T0025",
+        "T0026",
+        "T0027",
+        "T0028",
+        "T0034",
+        "T0035",
+        "T0036",
+        "T0037",
+        "T0038",
+        "T0039",
+        "T0040",
+        "T0041",
+        "T0042",
+        "T0043",
+        "T0044",
+        "T0045",
+        "T0057",
+        "T0058",
+        "T0059",
+        "T0060",
+        "T0061",
+        "T0064",
+        "T0065",
+        "T0066",
+        "T0067",
+        "T0068",
+        "T0071",
+        "T0072",
+        "T0073",
+        "T0075",
+        "T0077",
+        "T0078",
+        "T0081",
+        "T0082",
+        "T0083",
+        "T0084",
+        "T0085",
+        "T0086",
+        "T0087",
+        "T0088",
+        "T0089",
+        "T0090",
+        "T0091",
+        "T0092",
+        "T0093",
+        "T0094",
+        "T0095",
+        "T0098",
+        "T0124",
+        "T0125",
+        "T0126",
+        "T0127",
+        "T0130",
+        "T0131",
+        "T0132",
+        "T0133",
+        "T0134",
+        "T0135",
+        "T0136",
+        "T0137",
+        "T0143",
+        "T0144",
+        "T0176",
+        "T0177",
+        "T0179",
+        "T0180",
+        "T0207",
+        "T0208",
+        "T0209",
+        "T0210",
+        "T0222",
+        "T0223"
+      ]
+    },
+    {
+      "id": "e11",
+      "name": "E11",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "T0138",
+        "T0139",
+        "T0181",
+        "T0182",
+        "T0183",
+        "T0184",
+        "T0216",
+        "T0217",
+        "T0218",
+        "T0219",
+        "T0224",
+        "T0225",
+        "T0226",
+        "T0227"
+      ]
+    },
+    {
+      "id": "e12",
+      "name": "E12",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "T0187",
+        "T0188",
+        "T0189",
+        "T0190",
+        "T0194",
+        "T0195",
+        "T0196",
+        "T0197",
+        "T0228",
+        "T0229",
+        "T0230",
+        "T0231"
+      ]
+    },
+    {
+      "id": "e16",
+      "name": "E16",
+      "process": 16,
+      "engine": "e16",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "T0053",
+        "T0054",
+        "T0055",
+        "T0105",
+        "T0106",
+        "T0107",
+        "T0122",
+        "T0123"
+      ]
+    },
+    {
+      "id": "g10",
+      "name": "G10",
+      "process": 3,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "LP0047A",
+        "LP0048A"
+      ]
+    },
+    {
+      "id": "g11",
+      "name": "G11",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0022A"
+      ]
+    },
+    {
+      "id": "g11pro",
+      "name": "G11 Pro",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0028A",
+        "G0028B",
+        "G0049"
+      ]
+    },
+    {
+      "id": "g11m",
+      "name": "G11M",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0023A"
+      ]
+    },
+    {
+      "id": "g11mplus",
+      "name": "G11M Plus",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0025A"
+      ]
+    },
+    {
+      "id": "g12mini",
+      "name": "G12 Mini",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0045A"
+      ]
+    },
+    {
+      "id": "g15",
+      "name": "G15",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0013A",
+        "G0014"
+      ]
+    },
+    {
+      "id": "g15max",
+      "name": "G15 Max",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0069"
+      ]
+    },
+    {
+      "id": "g15mini",
+      "name": "G15 Mini",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0003A"
+      ]
+    },
+    {
+      "id": "g15pro",
+      "name": "G15 Pro",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0015A",
+        "G0015B",
+        "G0016"
+      ]
+    },
+    {
+      "id": "g15m",
+      "name": "G15M",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0004",
+        "G0017A",
+        "G0061",
+        "G0070",
+        "G0090"
+      ]
+    },
+    {
+      "id": "g15mpro",
+      "name": "G15M Pro",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0018A",
+        "G0018B",
+        "G0046A",
+        "G0047A",
+        "G0048A",
+        "G0062"
+      ]
+    },
+    {
+      "id": "g18",
+      "name": "G18",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 7.8,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0041A"
+      ]
+    },
+    {
+      "id": "g18pro",
+      "name": "G18 Pro",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0042A",
+        "G0042B",
+        "G0044",
+        "G0050"
+      ]
+    },
+    {
+      "id": "g19plus",
+      "name": "G19 Plus",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0026A"
+      ]
+    },
+    {
+      "id": "g19mplus",
+      "name": "G19M Plus",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "G0027A"
+      ]
+    },
+    {
+      "id": "g21_plus",
+      "name": "G21 Plus",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0051"
+      ]
+    },
+    {
+      "id": "g21_pro",
+      "name": "G21 Pro",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0029"
+      ]
+    },
+    {
+      "id": "g25",
+      "name": "G25",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0034"
+      ]
+    },
+    {
+      "id": "g25_plus",
+      "name": "G25 Plus",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0036"
+      ]
+    },
+    {
+      "id": "g25m",
+      "name": "G25M",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0033",
+        "G0059",
+        "G0060",
+        "G0081",
+        "G0082",
+        "G0083",
+        "G0084",
+        "G0085",
+        "G0086",
+        "G0087",
+        "G0088",
+        "G0089"
+      ]
+    },
+    {
+      "id": "g25m_plus",
+      "name": "G25M Plus",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0052"
+      ]
+    },
+    {
+      "id": "g28",
+      "name": "G28",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 7.6,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0043A"
+      ]
+    },
+    {
+      "id": "g7pro",
+      "name": "G7 Pro",
+      "process": 2,
+      "engine": "g7",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0008A",
+        "G0009A"
+      ]
+    },
+    {
+      "id": "g7m",
+      "name": "G7M",
+      "process": 2,
+      "engine": "g7",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0002A",
+        "G0010A",
+        "G0019A"
+      ]
+    },
+    {
+      "id": "g7mpro",
+      "name": "G7M Pro",
+      "process": 2,
+      "engine": "g7",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0011A",
+        "G0012A",
+        "G0020A",
+        "G0021A"
+      ]
+    },
+    {
+      "id": "h618gr",
+      "name": "H618GR",
+      "process": 5,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "LP0016"
+      ]
+    },
+    {
+      "id": "hp220",
+      "name": "HP220/CH203",
+      "process": 31,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 20,
+      "transport": "classic",
+      "prefixes": []
+    },
+    {
+      "id": "lp5125g",
+      "name": "LP5125",
+      "process": 8,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "LP0001G"
+      ]
+    },
+    {
+      "id": "lp6125e",
+      "name": "LP6125E",
+      "process": 10,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "LP0006D"
+      ]
+    },
+    {
+      "id": "lp6245c",
+      "name": "LP6245C",
+      "process": 11,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "LP0009D",
+        "LP0009E"
+      ]
+    },
+    {
+      "id": "lp6245e",
+      "name": "LP6245E",
+      "process": 12,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "LP0010"
+      ]
+    },
+    {
+      "id": "m50",
+      "name": "M50",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0008",
+        "MP0015"
+      ]
+    },
+    {
+      "id": "m50_pro",
+      "name": "M50 Pro",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0016"
+      ]
+    },
+    {
+      "id": "m80",
+      "name": "M80",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0026"
+      ]
+    },
+    {
+      "id": "m80_pro",
+      "name": "M80 Pro",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0027"
+      ]
+    },
+    {
+      "id": "mmp50",
+      "name": "MMP50",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0017"
+      ]
+    },
+    {
+      "id": "mp50_max",
+      "name": "MP50 Max",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "MP0018"
+      ]
+    },
+    {
+      "id": "mp80",
+      "name": "MP80",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0020"
+      ]
+    },
+    {
+      "id": "mp80_plus",
+      "name": "MP80 Plus",
+      "process": 28,
+      "engine": "cups",
+      "dots_per_mm": 24.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "MP0022"
+      ]
+    },
+    {
+      "id": "mt200",
+      "name": "MT200",
+      "process": 13,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0038"
+      ]
+    },
+    {
+      "id": "p18",
+      "name": "P18",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "P0011"
+      ]
+    },
+    {
+      "id": "p50",
+      "name": "P50",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "P0010A"
+      ]
+    },
+    {
+      "id": "p56",
+      "name": "P56",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "P0012A"
+      ]
+    },
+    {
+      "id": "p60",
+      "name": "P60",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "P0004"
+      ]
+    },
+    {
+      "id": "p66",
+      "name": "P66",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "P0005"
+      ]
+    },
+    {
+      "id": "q11_pro",
+      "name": "Q11 Pro",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0013A"
+      ]
+    },
+    {
+      "id": "q15",
+      "name": "Q15",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "D0008"
+      ]
+    },
+    {
+      "id": "q15_mini",
+      "name": "Q15 Mini",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "D0004A"
+      ]
+    },
+    {
+      "id": "q15_pro",
+      "name": "Q15 Pro",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 10,
+      "transport": "ble",
+      "prefixes": [
+        "D0009A"
+      ]
+    },
+    {
+      "id": "q18",
+      "name": "Q18",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0010A",
+        "D0020"
+      ]
+    },
+    {
+      "id": "q18_pro",
+      "name": "Q18 Pro",
+      "process": 27,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0013B"
+      ]
+    },
+    {
+      "id": "q19_plus",
+      "name": "Q19 Plus",
+      "process": 4,
+      "engine": "g15",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "ble",
+      "prefixes": [
+        "D0012A"
+      ]
+    },
+    {
+      "id": "q25",
+      "name": "Q25",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0014"
+      ]
+    },
+    {
+      "id": "q25_plus",
+      "name": "Q25 Plus",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0015"
+      ]
+    },
+    {
+      "id": "q7",
+      "name": "Q7",
+      "process": 2,
+      "engine": "g7",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0003A",
+        "D0003B"
+      ]
+    },
+    {
+      "id": "q7_pro",
+      "name": "Q7 Pro",
+      "process": 2,
+      "engine": "g7",
+      "dots_per_mm": 8.0,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "D0006A",
+        "D0007A"
+      ]
+    },
+    {
+      "id": "t10t16",
+      "name": "T10/T16",
+      "process": 16,
+      "engine": "e16",
+      "dots_per_mm": 8.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "T0047",
+        "T0052"
+      ]
+    },
+    {
+      "id": "t200m",
+      "name": "T200M",
+      "process": 20,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "Kata_T200M_"
+      ]
+    },
+    {
+      "id": "t50_max",
+      "name": "T50 Max",
+      "process": 17,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0192",
+        "T0204"
+      ]
+    },
+    {
+      "id": "t50_plus",
+      "name": "T50 Plus",
+      "process": 17,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0013B",
+        "T0020B"
+      ]
+    },
+    {
+      "id": "t50_plus_",
+      "name": "T50 Plus+",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 12.0,
+      "head_dots": 576,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0191"
+      ]
+    },
+    {
+      "id": "t50",
+      "name": "T50A",
+      "process": 18,
+      "engine": "t50-old",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0013A",
+        "T0020A",
+        "T0121A"
+      ]
+    },
+    {
+      "id": "t50m",
+      "name": "T50M",
+      "process": 18,
+      "engine": "t50-old",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0021A",
+        "T0022A",
+        "T0104A"
+      ]
+    },
+    {
+      "id": "t50m_plus",
+      "name": "T50M Plus",
+      "process": 17,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0021B",
+        "T0102B",
+        "T0103B",
+        "T0116B"
+      ]
+    },
+    {
+      "id": "t50m_pro",
+      "name": "T50M Pro",
+      "process": 17,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0096A",
+        "T0117A",
+        "T0118A",
+        "T0129A",
+        "T0147B",
+        "T0148",
+        "T0162B",
+        "T0163B",
+        "T0170",
+        "T0178",
+        "T0205",
+        "T0211",
+        "T0212",
+        "T0213",
+        "T0221"
+      ]
+    },
+    {
+      "id": "t50s",
+      "name": "T50S",
+      "process": 17,
+      "engine": "modern",
+      "dots_per_mm": 8.0,
+      "head_dots": 384,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0099A"
+      ]
+    },
+    {
+      "id": "t80_max",
+      "name": "T80 Max",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 7.9,
+      "head_dots": 568,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0193"
+      ]
+    },
+    {
+      "id": "t80_pro",
+      "name": "T80 Pro",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 7.9,
+      "head_dots": 568,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0171"
+      ]
+    },
+    {
+      "id": "t80_pro_",
+      "name": "T80 Pro+",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 11.9,
+      "head_dots": 864,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0186"
+      ]
+    },
+    {
+      "id": "t80m",
+      "name": "T80M",
+      "process": 19,
+      "engine": "modern",
+      "dots_per_mm": 7.9,
+      "head_dots": 568,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0111A"
+      ]
+    },
+    {
+      "id": "t80m_pro",
+      "name": "T80M Pro",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 11.9,
+      "head_dots": 864,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0173",
+        "T0174",
+        "T0220"
+      ]
+    },
+    {
+      "id": "t80s",
+      "name": "T80S",
+      "process": 19,
+      "engine": "modern",
+      "dots_per_mm": 7.9,
+      "head_dots": 568,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0033A",
+        "T0175A"
+      ]
+    },
+    {
+      "id": "tl8",
+      "name": "TL8",
+      "process": 33,
+      "engine": "modern",
+      "dots_per_mm": 11.9,
+      "head_dots": 864,
+      "density_max": 9,
+      "transport": "ble",
+      "prefixes": [
+        "T0234"
+      ]
+    },
+    {
+      "id": "tl8m",
+      "name": "TL8M",
+      "process": 30,
+      "engine": "modern",
+      "dots_per_mm": 11.9,
+      "head_dots": 864,
+      "density_max": 9,
+      "transport": "classic",
+      "prefixes": [
+        "T0235"
+      ]
+    },
+    {
+      "id": "tp20",
+      "name": "TP20",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0046A"
+      ]
+    },
+    {
+      "id": "tp20m",
+      "name": "TP20M",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 11.8,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0051A",
+        "TP0052A"
+      ]
+    },
+    {
+      "id": "tp50",
+      "name": "TP50",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0036"
+      ]
+    },
+    {
+      "id": "tp56",
+      "name": "TP56",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0037"
+      ]
+    },
+    {
+      "id": "tp70e",
+      "name": "TP70E",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0010B"
+      ]
+    },
+    {
+      "id": "tp76e",
+      "name": "TP76E",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0009B",
+        "TP0053"
+      ]
+    },
+    {
+      "id": "tp80",
+      "name": "TP80",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0002"
+      ]
+    },
+    {
+      "id": "tp80a",
+      "name": "TP80A",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0023A",
+        "TP0023Z"
+      ]
+    },
+    {
+      "id": "tp86e",
+      "name": "TP86E",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": []
+    },
+    {
+      "id": "tp96",
+      "name": "TP96",
+      "process": 23,
+      "engine": "cups",
+      "dots_per_mm": 12.0,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "TP0055"
+      ]
+    },
+    {
+      "id": "xg217",
+      "name": "XG217",
+      "process": 29,
+      "engine": "cups",
+      "dots_per_mm": 7.6,
+      "head_dots": 96,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0079"
+      ]
+    },
+    {
+      "id": "g7",
+      "name": "\u5c0f\u4e03",
+      "process": 2,
+      "engine": "g7",
+      "dots_per_mm": 7.6,
+      "head_dots": 80,
+      "density_max": 7,
+      "transport": "classic",
+      "prefixes": [
+        "G0001A",
+        "G0001B"
+      ]
+    },
+    {
+      "id": "generic_cups",
+      "name": "Other printer (system driver)",
+      "process": null,
+      "engine": "cups",
+      "dots_per_mm": 8.0,
+      "head_dots": 2400,
+      "density_max": 7,
+      "transport": "cups",
+      "prefixes": []
+    }
+  ]
+}

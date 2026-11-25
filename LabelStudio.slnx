@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/desktop/">
+    <Project Path="desktop/LabelStudio/LabelStudio.csproj" />
+    <Project Path="desktop/LabelStudio.Tests/LabelStudio.Tests.csproj" />
+  </Folder>
+  <Folder Name="/vendor/">
+    <Project Path="vendor/lzma-sdk-csharp/LzmaSdk.csproj" />
+  </Folder>
+</Solution>

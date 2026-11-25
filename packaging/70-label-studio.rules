@@ -1,0 +1,2 @@
+# Limit raw USB access to Supvan's vendor ID; grant the active desktop user access.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1820", TAG+="uaccess"

@@ -1,0 +1,12 @@
+out/
+linux-x64/
+
+**/bin/
+**/obj/
+*.user
+core
+core.*
+
+.env
+.env.*
+!.env.example
